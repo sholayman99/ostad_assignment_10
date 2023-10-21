@@ -1,0 +1,35 @@
+.project-container{
+    margin-top: 4rem;
+}
+.project-container h2{
+    font-size: 2rem;
+  font-family: fantasy;
+  text-transform: uppercase;
+  
+}
+
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.project-card div{
+    width: 300px;
+    height: 250px;
+    box-shadow: 1px 3px 4px 2px rgba(59, 57, 57, 0.68);
+    -webkit-box-shadow: 1px 3px 4px 2px rgba(59, 57, 57, 0.68);
+    -moz-box-shadow: 1px 3px 4px 2px rgba(59, 57, 57, 0.68);
+    text-align: start;
+    border-radius: 3%;
+}
+
+.project-card div h3{
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.project-card div p{
+   margin-left: 8px;
+    font-weight: 500;
+}

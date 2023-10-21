@@ -1,0 +1,28 @@
+.about-container{
+    margin-top: 5rem;
+}
+.about-container h2{
+    font-size: 3rem;
+}
+.text-input{
+    width: 30%;
+    height: 30px;
+    font-weight: 400;
+  }
+  .sub-btn{
+    background-color: rgb(158, 67, 243);
+    padding: 6px;
+    color: #fff;
+    font-size: 18px;
+    width: 10%;
+    border-radius: 10%;
+    margin-top: 3px;
+  }
+  
+  .sub-btn:hover{
+    cursor: pointer;
+  }
+
+  .error{
+    color: red;
+  }

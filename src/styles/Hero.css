@@ -1,0 +1,45 @@
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0rem;
+    padding: 0px 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 50%;
+    
+}
+.line{
+    height: 4px;
+    width: 10rem;
+    margin-right: 14px;
+    background-color: black;
+}
+
+.title h2{
+    font-size: 3.5rem;
+    color: rgb(18, 26, 68);
+    
+}
+
+.h-text{
+    color: rgb(145, 67, 197);
+    font-size: 6rem;
+}
+.title p{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.img-container{
+    max-width: 40%;
+}
+
+.img-container img{
+    width: 90%;
+}
